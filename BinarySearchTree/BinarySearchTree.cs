@@ -16,7 +16,6 @@ namespace BinarySearchTree
             this.RightTree = null;
         }
         int leftCount = 0, rightCount = 0;
-        bool resut = false;
         public void Insert(T item)
         {
             T currentNodeValue = this.NodeData;
